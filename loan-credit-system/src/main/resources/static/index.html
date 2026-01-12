@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Loan Application Form</h2>
+
+<input type="text" id="fullname" placeholder="Full Name"><br>
+<input type="text" id="panNumber" placeholder="PAN Number"><br>
+<input type="email" id="email" placeholder="Email"><br>
+<input type="number" id="loanAmount" placeholder="Loan Amount"><br>
+<input type="number" id="tenureMonths" placeholder="Tenure (Months)"><br>
+<input type="number" id="annualIncome" placeholder="Annual Income"><br>
+
+<button onclick="applyLoan()">Apply Loan</button>
+
+<h3 id="result"></h3>
+
+<hr>
+
+<h2>Check Loan Status</h2>
+<input type="number" id="loanId" placeholder="Loan ID">
+<button onclick="checkStatus()">Check Status</button>
+
+<h3 id="statusResult"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
